@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #171731;
+    color: #fff;
+    font-family: Quicksand;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    max-height: 100px;
+}
+
+.logo img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+nav {
+    float: right;
+    height: 53px;
+    padding: 13px;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 13px;
+}
+
+
+main {
+    position: relative;
+    background-color: #3347a1;
+    color: #fff;
+    padding: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+img {
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+section {
+    height: 500px;
+
+}
+
+section img {
+    max-width: 600px;
+    max-height: 600px;
+    border: 5px solid white;
+
+}
+
+h1 {
+    margin: 13px;
+    text-align: center;
+}
+
+h3 {
+    margin: 13px;
+    text-align: center;
+}
+
+p {
+    padding: 8px;
+    text-align: justify;
+}
+
+.secao-background-divisao {
+    padding: 50px 0;
+    text-align: center;
+    background-image: url(./img/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border: solid 2px white;
+}
+
+/*footer{
+	display: flex;
+  	justify-content: space-between;
+	padding: 5px;
+	align-items: center;
+	max-height: 100px;
+}*/
+
+footer {
+    width: 100%;
+    height: 300px;
+}
+
+.logo-footer img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.end {
+    background-color: #0e3a60;
+    padding: 8px 0 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.conteudo {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 0 30px 0 6px;
+
+}
+
+.conteudo h2 {
+    padding: 0 0 7px 0;
+}
+
+.conteudo a {
+    padding: 0 3px 17px 3px;
+    margin: 0 5px 3px 1px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.conteudo p {
+    padding: 6px 0 17px 0;
+    color: white;
+
+}
+
+.copyright {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    background-color: #000000;
+    color: white;
+    font-weight: 800;
+}
+
+.copyright h5 {
+    font-size: 1.1rem;
+    padding: 10px 0 0 0;
+}
+
+.copyright p {
+    font-size: 0.9rem;
+    padding: 0 0 2px 0;
+}
+
+.img-icons {
+    margin-bottom: 0px;
+    width: 20px;
+    height: 20px;
+}
+
